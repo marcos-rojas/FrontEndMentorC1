@@ -31,7 +31,7 @@ html{
     font-size: 16px;
 }
 .logo{
-    background: no-repeat url(/images/illustration-hero.svg);
+    background: no-repeat url(./images/illustration-hero.svg);
     height: 200px;
 }
 .description{
@@ -76,7 +76,7 @@ color: var(--dark_blue);
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: no-repeat url(/images/icon-music.svg);
+    background: no-repeat url(./images/icon-music.svg);
     background-position: 50%;
     outline: none;
     border: none;
