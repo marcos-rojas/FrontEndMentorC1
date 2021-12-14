@@ -1,101 +1,133 @@
-:root{
---pale_blue: hsl(225, 100%, 98%);
---sat_blue: hsl(224, 23%, 55%);
---dark_blue: hsl(223, 47%, 23%);
+:root {
+    --pale_blue: hsl(225, 100%, 98%);
+    --sat_blue : hsl(224, 23%, 55%);
+    --dark_blue: hsl(223, 47%, 23%);
 }
-html{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Red Hat Display', sans-serif;
-    background: no-repeat url(./images/pattern-background-mobile.svg);
-    background-size: 100%;
+
+html {
+    margin          : 0;
+    padding         : 0;
+    display         : flex;
+    height          : 100vh;
+    justify-content : center;
+    align-items     : center;
+    font-family     : 'Red Hat Display', sans-serif;
+    background      : no-repeat url(./images/pattern-background-mobile.svg);
+    background-size : 100%;
     background-color: var(--pale_blue);
 }
-*{
+
+* {
     text-align: center;
 }
-.title{
+
+.title {
     color: var(--dark_blue);
 }
-.card{
-    width: 300px;
+
+.card {
+    width           : 300px;
     background-color: white;
-    box-shadow: 0px 2px 3px rgba(0,0,0,.4);
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    font-size: 16px;
+    box-shadow      : 0px 2px 3px rgba(0, 0, 0, .4);
+    margin-bottom   : 1rem;
+    border-radius   : 1rem;
+    overflow        : hidden;
+    font-size       : 16px;
 }
-.logo{
+
+.logo {
     background: no-repeat url(./images/illustration-hero.svg);
-    height: 200px;
+    height    : 200px;
 }
-.description{
+
+.description {
     margin: 0 2rem;
 }
-.btn{
-    outline: none;
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    border: none;
+
+.btn {
+    outline      : none;
+    display      : block;
+    margin       : 0 auto;
+    width        : 80%;
+    border       : none;
     margin-bottom: 1.5rem;
-    text-align: center;
-    font-weight: 700;
+    text-align   : center;
+    font-weight  : 700;
 }
-button{
+
+button {
     cursor: pointer;
 }
-p, summary{
+
+p,
+summary {
     color: var(--sat_blue);
 }
-.plan_price h3{
+
+.plan_price h3 {
     color: var(--dark_blue);
 }
-.order{
+
+.order {
     background-color: rgb(50, 21, 235);
-    color: white;
-    border-radius: 5px;
-    padding: .8rem 1rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-    box-shadow: 0px 5px 10px rgb(134, 74, 245);
+    color           : white;
+    border-radius   : 5px;
+    padding         : .8rem 1rem;
+    font-size       : 1rem;
+    margin-top      : 1rem;
+    box-shadow      : 0px 5px 10px rgb(134, 74, 245);
 }
-.cancel_button{
-background-color: white;
-font-size: 1rem;
-color: var(--sat_blue);
+
+.order:hover {
+    background-color: rgb(39, 20, 165);
+    box-shadow      : 0px 3px 10px rgb(134, 74, 245);
+
 }
-.info{
-    display: flex;
-    align-items: center;
+
+.cancel_button {
+    background-color: white;
+    font-size       : 1rem;
+    color           : var(--sat_blue);
+}
+.cancel_button:hover {
+    color: rgba(0, 0, 0, .8);
+}
+.info {
+    display        : flex;
+    align-items    : center;
     justify-content: space-around;
 }
-.music{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: no-repeat url(./images/icon-music.svg);
+
+.music {
+    width              : 60px;
+    height             : 60px;
+    border-radius      : 50%;
+    background         : no-repeat url(./images/icon-music.svg);
     background-position: 50%;
-    outline: none;
-    border: none;
-    box-shadow: 0px 0px 2px blueviolet;
+    outline            : none;
+    border             : none;
+    box-shadow         : 0px 0px 2px blueviolet;
 }
-.music:hover{
+
+.music:hover {
     transform: scale(1.08);
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
-@media (min-width: 720px){
-    html{
+.attribution {
+    font-size : 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 720px) {
+    html {
         background: no-repeat url(./images/pattern-background-desktop.svg);
     }
-    .card{
+
+    .card {
         width: 400px;
     }
 }
