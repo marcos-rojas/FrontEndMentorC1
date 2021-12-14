@@ -27,7 +27,7 @@ when hover buttons, thus user knows state of its options.
 ### Screenshot
 
 ![Preview for the Order summary card desktop](./design/desktop-view.jpg)
-![Preview for the Order summary card phone](./design/desktop-view.jpg)
+![Preview for the Order summary card phone](./design/iphone-view.jpg)
 
 ### Links
 
